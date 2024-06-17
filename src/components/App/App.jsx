@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div>
       <AppBar />
+      <h1>~Dream Team~</h1>
       <OfficerList items={officers} />
       
     </div>
