@@ -1,3 +1,4 @@
+import { FaBeer } from "react-icons/fa";
 import AppBar from "../AppBar/AppBar";
 import officers from "../../officers.json";
 import OfficerList from "../OfficerList/OfficerList";
@@ -7,7 +8,9 @@ export default function App() {
   return (
     <div className={css.container}>
       <AppBar />
-      <h1>~Dream Team~</h1>
+      <h1 className={css.title}>
+        ~Dream Team~ <FaBeer className={css.icon} />
+      </h1>
       <OfficerList items={officers} />
     </div>
   );
