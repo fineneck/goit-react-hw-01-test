@@ -1,0 +1,10 @@
+.cotainer {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.title {
+  font-size: 20px;
+}
